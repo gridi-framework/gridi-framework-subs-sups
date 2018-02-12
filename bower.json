@@ -1,0 +1,26 @@
+{
+    "name": "gridi-framework-subs-sups",
+    "description": "",
+    "main": "",
+    "authors": [
+        "Przemysław Dziadek <przemyslaw.dziadek@gmail.com>"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "css",
+        "scss",
+        "gridi",
+        "framework",
+        "subs",
+        "sups"
+    ],
+    "homepage": "https://github.com/gridi-framework/gridi-framework-subs-sups",
+    "ignore": [
+        "**/.*",
+        "**/*.md",
+        "**/*.js",
+        "**/*.json",
+        "node_modules",
+        "bower_components"
+    ]
+}

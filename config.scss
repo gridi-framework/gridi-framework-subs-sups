@@ -1,0 +1,11 @@
+$sub-sup-position: relative !default;
+$sub-sup-font-size: 0.8em !default;
+$sub-sup-line-height: normal !default;
+$sub-sup-vertical-align: baseline !default;
+//@mixin sub-sup-extra-style() {} //Create this mixin before import module when you want add some special style for element
+
+$sub-bottom: -0.25em !default;
+//@mixin sub-extra-style() {} //Create this mixin before import module when you want add some special style for element
+
+$sup-top: -0.5em !default;
+//@mixin sup-extra-style() {} //Create this mixin before import module when you want add some special style for element

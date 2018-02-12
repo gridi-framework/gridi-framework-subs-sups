@@ -1,0 +1,24 @@
+sub,
+sup {
+    position: $sub-sup-position;
+    font-size: $sub-sup-font-size;
+    line-height: $sub-sup-line-height;
+    vertical-align: $sub-sup-vertical-align;
+    @if mixin-exists(sub-sup-extra-style) {
+        @include sub-sup-extra-style();
+    }
+}
+
+sub {
+    bottom: $sub-bottom;
+    @if mixin-exists(sub-extra-style) {
+        @include sub-extra-style();
+    }
+}
+
+sup {
+    top: $sup-top;
+    @if mixin-exists(sup-extra-style) {
+        @include sup-extra-style();
+    }
+}
